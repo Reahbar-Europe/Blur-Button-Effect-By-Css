@@ -1,0 +1,10 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+
+/*https://youtu.be/76zhl8KTd74?si=1snEEawoJ1dv--Rd*/
