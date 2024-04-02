@@ -7,4 +7,38 @@ body {
     place-items: center;
 }
 
+.container {
+    display: inline-block;
+    width: 552px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    color: #fff;
+    width: 170px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    transition: 3s;
+    border-radius: 5px;
+}
+
+.box1 {
+
+    background-color: #6420aa;
+}
+
+.box2 {
+    background-color: #ff3ea5;
+}
+
+.box3 {
+    background-color: #ff7ed4;
+
+}
+
+
 /*https://youtu.be/76zhl8KTd74?si=1snEEawoJ1dv--Rd*/
