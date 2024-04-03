@@ -12,8 +12,9 @@ body {
     width: 552px;
     height: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .box {
@@ -22,7 +23,7 @@ body {
     height: 70px;
     display: grid;
     place-items: center;
-    transition: 3s;
+    transition: .3s;
     border-radius: 5px;
 }
 
@@ -42,6 +43,11 @@ body {
 
 .container .box:hover {
     transform: scale(1.1);
+}
+
+.container:hover >.box:not(:hover) {
+    filter: blur(4px);
+    transform: scale(0.9);
 }
 
 
